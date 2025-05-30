@@ -4,14 +4,14 @@ import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-around bg-[var(--navbar)] p-4 border-2 h-30">
+    <nav className="fixed top-0 left-0 w-full z-50 flex items-center justify-around bg-[var(--navbar)] p-4 border-2 h-30">
       {/* Izquierda - Logo */}
       <div className="flex items-center gap-4">
         <Image
           src="/logoSVG.svg"
           alt="logo del camping"
-          width={80}
-          height={80}
+          width={84}
+          height={84}
         />
       </div>
 
@@ -25,7 +25,7 @@ const Navbar = () => {
       </div>
 
       {/* Derecha - Iconos */}
-      <div className="flex items-center gap-4 text-3xl">
+      <div className="flex items-center gap-4 text-2xl">
         <a
           href="https://www.facebook.com/vegadefranciacamping/"
           target="_blank"
