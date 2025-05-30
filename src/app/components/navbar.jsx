@@ -1,12 +1,18 @@
 import Link from "next/link";
+import Image from "next/image";
 import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-around bg-[var(--navbar)] p-4 border-2 h-20">
+    <nav className="flex items-center justify-around bg-[var(--navbar)] p-4 border-2 h-30">
       {/* Izquierda - Logo */}
       <div className="flex items-center gap-4">
-        <div className="w-10 h-10 bg-black" />
+        <Image
+          src="/logoSVG.svg"
+          alt="logo del camping"
+          width={80}
+          height={80}
+        />
       </div>
 
       {/* Centro - Links */}
@@ -21,21 +27,21 @@ const Navbar = () => {
       {/* Derecha - Iconos */}
       <div className="flex items-center gap-4 text-3xl">
         <a
-          href="https://www.facebook.com"
+          href="https://www.facebook.com/vegadefranciacamping/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaFacebookF className="hover:text-blue-500 transition" />
         </a>
         <a
-          href="https://www.instagram.com"
+          href="https://www.instagram.com/campingvegadefrancia/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaInstagram className="hover:text-pink-500 transition" />
         </a>
         <a
-          href="https://www.tiktok.com"
+          href="https://www.tiktok.com/@campingvegadefrancia"
           target="_blank"
           rel="noopener noreferrer"
         >
