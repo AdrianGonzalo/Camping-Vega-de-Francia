@@ -1,10 +1,8 @@
-import Navbar from "@/app/components/navbar";
 import Image from "next/image";
 
 const HomePage = () => {
   return (
     <div>
-      <Navbar />
       <div className="relative w-full h-screen">
         <Image
           src="/bridge.jpg"

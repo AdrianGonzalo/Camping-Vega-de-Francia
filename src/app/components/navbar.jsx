@@ -4,7 +4,7 @@ import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 flex items-center justify-around bg-[var(--navbar)] p-4 border-2 h-30">
+    <nav className="fixed top-0 left-0 w-full z-50 flex items-center justify-around bg-[var(--navbar)] p-4 h-30">
       {/* Izquierda - Logo */}
       <div className="flex items-center gap-4">
         <Image
