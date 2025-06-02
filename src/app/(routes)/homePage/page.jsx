@@ -66,21 +66,74 @@ const HomePage = () => {
 
         {/* Apartado para Servicios */}
         <div>
-          <p className="text-5xl text-[var(--titleBody)] flex justify-center mb-4">
+          <p className="text-5xl text-[var(--titleBody)] flex justify-center mb-8">
             Lo mejor de nuestros servicios
           </p>
-          <div>
+          <div className="flex flex-col items-center text-sm gap-4 mb-10">
             <p>Nuestras parcelas son grandes, con sombras y un buen acceso.</p>
-            <p>Las mascotas son bienvenidas. Acceso adaptado a minusválidos.</p>
+            <div>
+              <p>Las mascotas son bienvenidas.</p>
+              <p>Acceso adaptado a minusválidos.</p>
+            </div>
             <p>
               Temporada alta: 16/04/2025 – 01/09/2025 - Temporada baja: Resto
               del año
             </p>
           </div>
+          <div className="mb-10">
+            <div className="flex max-w-[1150px] h-auto mx-auto mt-5 mb-15">
+              <Image
+                src="/bungalows.JPG"
+                alt="bungalows"
+                width={700}
+                height={200}
+              />
+              <div className="bg-white shadow-2xl text-sm p-15">
+                <p className="text-4xl text-[var(--titleBody)] font-bold mb-10">
+                  Bungalows y Tipis
+                </p>
+                <p className="mb-25">
+                  Nuestros bungalows ofrecen un espacio cómodo y totalmente
+                  equipado para que disfrutes de una estancia agradable en plena
+                  naturaleza. Perfectos para familias o grupos que buscan un
+                  alojamiento práctico, con todas las comodidades para relajarse
+                  después de un día al aire libre.
+                </p>
+                <button className="text-white bg-green-800 p-2">
+                  Mas información
+                </button>
+              </div>
+            </div>
+
+            <div className="flex max-w-[1150px] h-auto mx-auto mt-5">
+              <div className="bg-white shadow-2xl text-sm p-15 text-right">
+                <p className="text-4xl text-[var(--titleBody)] font-bold mb-10 ">
+                  Parcelas
+                </p>
+                <p className="mb-25">
+                  Nuestros bungalows ofrecen un espacio cómodo y totalmente
+                  equipado para que disfrutes de una estancia agradable en plena
+                  naturaleza. Perfectos para familias o grupos que buscan un
+                  alojamiento práctico, con todas las comodidades para relajarse
+                  después de un día al aire libre.
+                </p>
+                <button className="text-white bg-green-800 p-2">
+                  Mas información
+                </button>
+              </div>
+              <Image
+                src="/parcelas.JPG"
+                alt="parcelas"
+                width={700}
+                height={200}
+              />
+            </div>
+            <div></div>
+          </div>
         </div>
 
         {/* Apartado para fijos */}
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col  items-center">
           <p className="text-5xl text-[var(--titleBody)] mb-4">
             ¿Quieres formar parte de nuestra familia?
           </p>
