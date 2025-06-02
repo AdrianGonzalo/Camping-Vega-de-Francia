@@ -2,10 +2,10 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-[var(--footer)] w-full border-t-4 border-[var(--footerBorder)] text-white">
-      <div className="flex flex-col justify-between min-h-[200px] ">
+    <footer className="bg-[var(--footer)] w-full border-t-4 border-[var(--footerBorder)] text-white text-sm">
+      <div className="flex flex-col justify-between min-h-[250px] ">
         <div className="text-sm flex justify-center space-y-1 ">
-          <div className=" w-130 flex flex-col gap-2 mt-2">
+          <div className=" w-130 flex flex-col gap-5 mt-4">
             <p className="flex items-center gap-4">
               <FaMapMarkerAlt /> Junto al Puente Romano, Calle Camping, 1, 37657
               Sotoserrano, Salamanca
