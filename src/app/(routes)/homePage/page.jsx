@@ -160,7 +160,7 @@ const HomePage = () => {
           <div className="absolute inset-0 flex flex-col justify-center items-center text-white font-bold text-4xl z-20">
             <p>Ponte en contacto con nosotros</p>
             <br />
-            <p>900 00 00 00 - 600 00 00 00</p>
+            <p>923 16 11 04 - 653 06 81 00</p>
           </div>
         </div>
 
