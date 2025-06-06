@@ -1,5 +1,5 @@
 import Header from "@/app/components/header";
-import CardService from "@/app/components/cardService";
+import CardBungalow from "@/app/components/cardBungalow";
 
 const Bungalows = () => {
   return (
@@ -7,7 +7,7 @@ const Bungalows = () => {
       <Header img="/headers/bungalows.JPG" title="BUNGALOWS" />
 
       <div className="flex justify-center gap-20 mt-10 mb-20 max-w-[1000px] mx-auto">
-        <CardService
+        <CardBungalow
           img="/bungalows/bungalow.png"
           title="Bungalows"
           description="Bungalow de 26 m² con capacidad para 5 personas. Dispone de 2 dormitorios con cama doble, literas e individuales, baño privado con ducha."
@@ -68,7 +68,7 @@ const Bungalows = () => {
           }
         />
 
-        <CardService
+        <CardBungalow
           img="/bungalows/tipis.png"
           title="Tipis"
           description="Bungalow de 26 m² con capacidad para 5 personas. Dispone de 2 dormitorios con cama doble, literas e individuales, baño privado con ducha."
