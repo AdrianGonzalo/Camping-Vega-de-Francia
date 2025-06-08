@@ -7,6 +7,9 @@ module.exports = {
         title: ["var(--font-montserrat)", "sans-serif"],
         body: ["var(--font-roboto)", "sans-serif"],
       },
+      screens: {
+        mdx: "1050px",
+      },
     },
   },
   plugins: [],
