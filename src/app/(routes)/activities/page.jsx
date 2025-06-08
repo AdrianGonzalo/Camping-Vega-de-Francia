@@ -57,7 +57,7 @@ const Activities = () => {
 
         <BigCard
           title="Parque Infantil"
-          description="Nuestro parque infantil es el lugar perfecto para que los más pequeños disfruten al aire libre, rodeados de naturaleza y con total seguridad. Un espacio pensado para el juego, la imaginación y la aventura, donde pueden compartir momentos inolvidables con otros niños mientras tú te relajas sabiendo que están en buenas manos."
+          description="Nuestro parque infantil es un espacio seguro y rodeado de naturaleza donde los niños pueden jugar y divertirse al aire libre. Un lugar ideal para que compartan momentos especiales con otros niños mientras tú disfrutas tranquilo."
           imageSrc="/activities/parqueInfantil.jpg"
           imageAlt="parque infantil"
           imageLeft={false}

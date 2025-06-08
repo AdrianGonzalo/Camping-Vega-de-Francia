@@ -24,13 +24,12 @@ const BigCard = ({ title, description, imageSrc, imageAlt, imageLeft }) => {
           Más información
         </button>
       </div>
-      <div className="flex-1">
+      <div className="w-[500px] h-[300px] relative">
         <Image
           src={imageSrc}
           alt={imageAlt}
-          width={700}
-          height={200}
-          className="w-full h-auto object-cover"
+          fill
+          style={{ objectFit: "cover" }}
         />
       </div>
     </div>
