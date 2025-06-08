@@ -16,11 +16,13 @@ const Navbar = () => {
       </div>
 
       {/* Centro - Links */}
-      <div className="flex gap-8 text-xl">
+      <div className="flex gap-8 text-lg">
         <Link href="/homePage">Inicio</Link>
         <Link href="/bungalows">Bungalows</Link>
         <Link href="/plots">Parcelas</Link>
         <Link href="/activities">Actividades</Link>
+        <Link href="/gallery">Galeria</Link>
+        <Link href="/aboutUs">Sobre Nosotros</Link>
         <Link href="/contact">Contacto</Link>
       </div>
 

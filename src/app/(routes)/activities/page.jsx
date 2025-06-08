@@ -40,7 +40,7 @@ const Activities = () => {
         />
 
         <BigCard
-          title="El rincon del Soto"
+          title="La Despensa del Soto"
           description="En La Despensa del Soto queremos que vivas la experiencia del camping también a través de lo que nos rodea. Es un espacio donde reunimos lo mejor de nuestra tierra, con una cuidada selección de productos elaborados por manos locales, con tradición, cariño y respeto por el entorno."
           imageSrc="/activities/rincon.JPG"
           imageAlt="el rincon del soto"
