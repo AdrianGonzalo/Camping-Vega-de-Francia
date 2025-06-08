@@ -62,7 +62,7 @@ const Navbar = () => {
                 pathname === link.href
                   ? "text-[var(--titleBody)] font-semibold underline"
                   : "text-black"
-              } hover:text-green-300`}
+              } hover:text-green-600`}
             >
               {link.label}
             </Link>
