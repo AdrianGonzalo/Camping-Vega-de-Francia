@@ -93,7 +93,7 @@ const Navbar = () => {
 
         {/* Botón hamburguesa - solo visible en móvil */}
         <button
-          className="text-white text-3xl md:hidden"
+          className="text-[var(--titleBody)] text-5xl md:hidden"
           onClick={() => setMenuOpen(true)}
         >
           <HiMenu />
