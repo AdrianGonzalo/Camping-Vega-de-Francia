@@ -108,7 +108,7 @@ const Navbar = () => {
       >
         <div className="flex justify-between items-center p-4 border-b border-white/20">
           <Image src="/logoSVG.svg" alt="logo" width={50} height={50} />
-          <button onClick={closeMenu} className="text-white text-3xl">
+          <button onClick={closeMenu} className="text-black text-3xl">
             <HiX />
           </button>
         </div>
@@ -121,7 +121,7 @@ const Navbar = () => {
               className={`${
                 pathname === link.href
                   ? "text-green-400 font-semibold"
-                  : "text-white"
+                  : "text-black"
               } hover:text-green-300 transition`}
             >
               {link.label}

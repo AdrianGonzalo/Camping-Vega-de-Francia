@@ -17,7 +17,8 @@ const CardPlots = ({ img, title, description }) => {
       {/* Contenido más estrecho */}
       <div className="relative z-10 -mt-10 mx-auto w-[75%] bg-white shadow-md text-center p-4">
         <h1 className="text-lg font-bold mb-3">{title}</h1>
-        <p className="text-gray-700 text-sm mb-4">{description}</p>
+        <div className="text-gray-700 text-sm mb-4">{description}</div>{" "}
+        {/* Aquí está el cambio */}
       </div>
     </div>
   );

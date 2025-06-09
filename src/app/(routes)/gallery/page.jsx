@@ -1,4 +1,4 @@
-"use client"; // necesario para componentes con estado en Next.js app dir
+"use client";
 
 import Header from "@/app/components/header";
 import { PhotoProvider, PhotoView } from "react-photo-view";
