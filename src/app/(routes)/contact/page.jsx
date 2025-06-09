@@ -7,7 +7,7 @@ const Contact = () => {
       <Header title="CONTACTO" img="/headers/contact.jpg" />
 
       <section className="flex flex-col items-center justify-center px-4 py-10 bg-white text-black">
-        <div className="w-full max-w-3xl bg-[var(--backgroundDark)] rounded-2xl shadow-lg p-6 sm:p-10 space-y-6">
+        <div className="w-full max-w-3xl bg-[var(--backgroundDark)] shadow-lg p-6 sm:p-10 space-y-6">
           <h2 className="text-2xl font-bold text-center text-[var(--titleBody)]">
             Información de contacto
           </h2>

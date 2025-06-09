@@ -12,7 +12,7 @@ const Plots = () => {
           title="Parcela (electricidad opcional)"
           description={
             <>
-              <p className="font-semibold mb-2">Horario</p>
+              <h3 className="font-semibold mb-2">Horario</h3>
               <ul className="mb-4 text-sm">
                 <li>
                   <strong>Apertura:</strong> 01/12 - 31/12
@@ -25,7 +25,7 @@ const Plots = () => {
                 </li>
               </ul>
 
-              <p className="font-semibold mb-2">Permitido en este lugar:</p>
+              <h3 className="font-semibold mb-2">Permitido en este lugar:</h3>
               <ul className="mb-4 text-sm list-disc list-inside">
                 <li>Caravana</li>
                 <li>Autocaravana</li>
