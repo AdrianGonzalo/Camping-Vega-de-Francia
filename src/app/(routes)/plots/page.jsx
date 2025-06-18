@@ -1,12 +1,11 @@
 import Header from "@/app/components/header";
-
 import CardPlots from "@/app/components/cardPlots";
 
 const Plots = () => {
   return (
     <div>
       <Header img="/headers/plots.JPG" title="Parcelas" />
-      <div className="max-w-[1300px] mx-auto flex justify-center gap-x-6">
+      <div className="max-w-[1300px] mx-auto flex flex-col md:flex-row justify-center gap-6 px-4 pb-10">
         <CardPlots
           img="/headers/plots.JPG"
           title="Parcela (electricidad opcional)"
@@ -94,9 +93,6 @@ const Plots = () => {
           }
         />
       </div>
-      <button className="w-full max-w-[1170px] mx-auto block mb-10 mt-2 bg-[var(--buttonReserve)] p-1 shadow-md">
-        Reservar ahora
-      </button>
     </div>
   );
 };
