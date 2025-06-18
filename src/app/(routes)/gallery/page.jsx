@@ -34,10 +34,14 @@ const Gallery = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
             {images.map((src, index) => (
               <PhotoView key={index} src={src}>
-                <div className="w-full h-[250px] overflow-hidden cursor-pointer">
+                <div
+                  tabIndex={0}
+                  className="w-full h-[250px] overflow-hidden cursor-pointer shadow-md"
+                >
                   <img
                     src={src}
-                    alt={`Camping Vega de Francia ${index + 1}`}
+                    alt={`Camping Vega de Francia imagen número ${index + 1}`}
+                    loading="lazy"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                   />
                 </div>
