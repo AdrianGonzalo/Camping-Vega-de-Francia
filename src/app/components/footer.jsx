@@ -1,45 +1,46 @@
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import Link from "next/link";
 
 const Footer = () => {
   return (
     <footer className="bg-[var(--footer)] w-full border-t-4 border-[var(--footerBorder)] text-white text-sm">
-      <div className="flex flex-col justify-between min-h-[250px] ">
-        <div className="text-sm flex justify-center space-y-1 ">
-          <div className=" w-130 flex flex-col gap-5 mt-4">
-            <p className="flex items-center gap-4">
+      <div className="flex flex-col justify-between min-h-[250px] px-4 md:px-12 py-6 md:py-10 max-w-[1300px] mx-auto">
+        <div className="flex justify-center">
+          <div className="w-full max-w-lg flex flex-col gap-3 md:gap-5">
+            <p className="flex items-center gap-3 md:gap-4 text-xs md:text-sm">
               <FaMapMarkerAlt /> Junto al Puente Romano, Calle Camping, 1, 37657
               Sotoserrano, Salamanca
             </p>
-            <p className="flex items-center gap-4">
+            <p className="flex items-center gap-3 md:gap-4 text-xs md:text-sm">
               <FaEnvelope /> josega1669@gmail.com
             </p>
-            <p className="flex items-center gap-4">
+            <p className="flex items-center gap-3 md:gap-4 text-xs md:text-sm">
               <FaPhoneAlt /> Fijo: 923 16 11 04
             </p>
-            <p className="flex items-center gap-4">
+            <p className="flex items-center gap-3 md:gap-4 text-xs md:text-sm">
               <FaPhoneAlt /> Movil: 653 06 81 00
             </p>
           </div>
         </div>
 
         {/* Parte inferior fija: políticas */}
-        <div className="text-center bg-[var(--footerPolicies)] py-3 text-sm">
+        <div className="text-center bg-[var(--footerPolicies)] py-3 text-xs md:text-sm mt-6 md:mt-10">
           <p>© 2025 Vega de Francia, Todos los derechos reservados.</p>
-          <ul className="flex flex-wrap justify-center gap-4 mt-4">
+          <ul className="flex flex-wrap justify-center gap-3 md:gap-4 mt-3 md:mt-4">
             <li>
-              <a href="/privacidad" className="hover:underline">
+              <Link href="/footerPrivacity" className="hover:underline">
                 Política de privacidad
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/cookies" className="hover:underline">
+              <Link href="/footerCookies" className="hover:underline">
                 Política de cookies
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/aviso-legal" className="hover:underline">
+              <Link href="/footerLegal" className="hover:underline">
                 Aviso legal
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
