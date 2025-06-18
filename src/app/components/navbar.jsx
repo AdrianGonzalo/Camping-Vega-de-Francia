@@ -70,26 +70,57 @@ const Navbar = () => {
         </div>
 
         {/* Redes sociales */}
+        {/* En escritorio: a la derecha */}
         <div className="hidden md:flex items-center gap-4 text-2xl">
           <a
             href="https://www.facebook.com/vegadefranciacamping/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <FaFacebookF className="hover:text-blue-500 transition" />
           </a>
           <a
             href="https://www.instagram.com/campingvegadefrancia/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <FaInstagram className="hover:text-pink-500 transition" />
           </a>
           <a
             href="https://www.tiktok.com/@campingvegadefrancia"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <FaTiktok className="hover:text-red-500 transition" />
           </a>
         </div>
+
+        {/* Redes sociales centradas en móvil cuando menú cerrado */}
+        {!menuOpen && (
+          <div className="md:hidden absolute left-1/2 transform -translate-x-1/2 text-2xl flex gap-6">
+            <a
+              href="https://www.facebook.com/vegadefranciacamping/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaFacebookF className="hover:text-blue-500 transition" />
+            </a>
+            <a
+              href="https://www.instagram.com/campingvegadefrancia/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaInstagram className="hover:text-pink-500 transition" />
+            </a>
+            <a
+              href="https://www.tiktok.com/@campingvegadefrancia"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaTiktok className="hover:text-red-500 transition" />
+            </a>
+          </div>
+        )}
 
         {/* Botón hamburguesa - solo visible en móvil */}
         <button
@@ -132,18 +163,21 @@ const Navbar = () => {
             <a
               href="https://www.facebook.com/vegadefranciacamping/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <FaFacebookF />
             </a>
             <a
               href="https://www.instagram.com/campingvegadefrancia/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <FaInstagram />
             </a>
             <a
               href="https://www.tiktok.com/@campingvegadefrancia"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <FaTiktok />
             </a>
