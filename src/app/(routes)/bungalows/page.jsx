@@ -6,7 +6,7 @@ const Bungalows = () => {
     <div>
       <Header img="/headers/bungalows.JPG" title="BUNGALOWS" />
 
-      <div className="flex justify-center gap-20 mt-10 mb-20 max-w-[1000px] mx-auto">
+      <div className="flex flex-col md:flex-row justify-center gap-10 mt-10 mb-20 max-w-[1000px] mx-auto px-4 items-stretch">
         <CardBungalow
           img="/bungalows/bungalow.png"
           title="Bungalows"
@@ -72,7 +72,11 @@ const Bungalows = () => {
           img="/bungalows/tipis.png"
           title="Tipis"
           description="Bungalow de 26 m² con capacidad para 5 personas. Dispone de 2 dormitorios con cama doble, literas e individuales, baño privado con ducha."
-          deepDescription=""
+          deepDescription={
+            <>
+              <p>Próximamente más información sobre nuestros Tipis 🏕️</p>
+            </>
+          }
         />
       </div>
     </div>
