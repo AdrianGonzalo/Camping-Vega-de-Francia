@@ -24,21 +24,29 @@ const BigCard = ({
   return (
     <>
       {/* Card principal */}
-      <div className="max-w-[1150px] mx-auto my-10">
+      <div className="max-w-[1150px] mx-auto my-10 px-4 xl:px-0">
         <div
-          className={`flex gap-5 flex-col md:flex-row ${
-            imageLeft ? "md:flex-row-reverse" : ""
+          className={`flex gap-5 flex-col ${
+            imageLeft ? "xl:flex-row-reverse" : "xl:flex-row"
           }`}
         >
+          <div className="w-full h-[200px] xl:w-[500px] xl:h-[300px] relative rounded overflow-hidden">
+            <Image
+              src={imageSrc}
+              alt={imageAlt}
+              fill
+              className="object-cover rounded"
+            />
+          </div>
+
           <div
-            className={`bg-white shadow-2xl p-10 flex-1 flex flex-col justify-center ${alignment}`}
+            className={`bg-white shadow-2xl p-6 xl:p-10 flex-1 flex flex-col justify-center ${alignment}`}
           >
             <h2 className="text-4xl text-[var(--titleBody)] font-bold mb-6">
               {title}
             </h2>
             <p className="mb-10">{description}</p>
 
-            {/* Mostrar botón solo si showMoreButton es true */}
             {showMoreButton && (
               <button
                 className="text-white bg-green-800 px-4 py-2 rounded hover:bg-green-700 transition"
@@ -47,15 +55,6 @@ const BigCard = ({
                 Más información
               </button>
             )}
-          </div>
-
-          <div className="w-full md:w-[500px] h-[300px] relative">
-            <Image
-              src={imageSrc}
-              alt={imageAlt}
-              fill
-              className="object-cover rounded"
-            />
           </div>
         </div>
       </div>
@@ -77,7 +76,6 @@ const BigCard = ({
             {/* Contenido */}
             <div className="p-6">
               <h3 className="text-3xl font-bold mb-4 text-center">{title}</h3>
-              {/* Si es senderismo y showRoutes=true mostramos el componente */}
               {showRoutes && title === "Senderismo" ? (
                 <Routes showRoutes={true} />
               ) : (
