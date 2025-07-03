@@ -6,8 +6,8 @@ const Contact = () => {
     <div className="flex flex-col">
       <Header title="CONTACTO" img="/headers/contact.jpg" />
 
-      <section className="flex flex-col items-center justify-center px-4 py-10 bg-white text-black">
-        <div className="w-full max-w-3xl bg-[var(--backgroundDark)] shadow-lg p-6 sm:p-10 space-y-6">
+      <section className="flex flex-col items-center justify-center px-4 py-10 text-black">
+        <div className="w-full max-w-3xl bg-white shadow-lg p-6 sm:p-10 space-y-6">
           <h2 className="text-2xl font-bold text-center text-[var(--titleBody)]">
             Información de contacto
           </h2>
@@ -34,6 +34,18 @@ const Contact = () => {
               Móvil: 653 06 81 00
             </p>
           </div>
+        </div>
+
+        {/* MAPA DE GOOGLE */}
+        <div className="w-full max-w-3xl mt-10 shadow-lg">
+          <iframe
+            src="https://maps.google.com/maps?q=40.43044,-6.01103&t=k&z=16&output=embed"
+            width="100%"
+            height="400"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+          />
         </div>
       </section>
     </div>
