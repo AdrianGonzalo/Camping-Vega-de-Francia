@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import Card from "@/app/components/card";
+import GoogleReviews from "@/app/components/GoogleReviews";
 
 const HomePage = () => {
   return (
@@ -169,30 +170,8 @@ const HomePage = () => {
           <p className="text-5xl text-[var(--titleBody)] mb-10 flex justify-center">
             Opiniones sobre nosotros
           </p>
-          <div className="flex gap-5 justify-center mb-10">
-            <Image
-              src="/reseña.png"
-              alt="reseña"
-              width={300}
-              height={300}
-              className="object-cover object-center"
-            />
-
-            <Image
-              src="/reseña.png"
-              alt="reseña"
-              width={300}
-              height={300}
-              className="object-cover object-center"
-            />
-
-            <Image
-              src="/reseña.png"
-              alt="reseña"
-              width={300}
-              height={300}
-              className="object-cover object-center"
-            />
+          <div className="">
+            <GoogleReviews />
           </div>
         </div>
       </div>
