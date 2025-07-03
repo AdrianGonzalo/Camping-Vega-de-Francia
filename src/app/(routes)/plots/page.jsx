@@ -4,7 +4,7 @@ import CardPlots from "@/app/components/cardPlots";
 const Plots = () => {
   return (
     <div>
-      <Header img="/headers/plots.JPG" title="Parcelas" />
+      <Header img="/headers/plots.JPG" title="PARCELAS" />
       <div className="max-w-[1300px] mx-auto flex flex-col md:flex-row justify-center gap-6 px-4 pb-10">
         <CardPlots
           img="/headers/plots.JPG"

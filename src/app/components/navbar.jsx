@@ -35,11 +35,13 @@ const Navbar = () => {
     <>
       {/* NAVBAR PRINCIPAL */}
       <nav
-        className={`fixed top-0 left-0 w-full z-50 flex items-center justify-between px-4 md:px-12 transition-all duration-300 ${
-          scrolled
-            ? "bg-[var(--navbar)] h-16 shadow-md"
-            : "bg-[var(--navbar)] h-24"
-        }`}
+        className={`fixed top-0 left-0 w-full z-50 flex items-center justify-between px-4 md:px-12 transition-all duration-300
+          ${
+            scrolled
+              ? "bg-gray-100 opacity-100 h-16 shadow-md"
+              : "bg-white opacity-80 h-24"
+          }
+        `}
       >
         {/* Logo */}
         <div className="flex items-center gap-4">
@@ -60,9 +62,11 @@ const Navbar = () => {
               href={link.href}
               className={`transition-colors duration-200 ${
                 pathname === link.href
-                  ? "text-[var(--titleBody)] font-semibold underline"
-                  : "text-black"
-              } hover:text-green-600`}
+                  ? "text-green-600 font-semibold underline"
+                  : scrolled
+                  ? "text-gray-900 hover:text-green-600"
+                  : "text-gray-800 hover:text-green-600"
+              }`}
             >
               {link.label}
             </Link>
@@ -70,61 +74,66 @@ const Navbar = () => {
         </div>
 
         {/* Redes sociales */}
-        {/* En escritorio: a la derecha */}
-        <div className="hidden md:flex items-center gap-4 text-2xl">
+        <div className="hidden md:flex items-center gap-4 text-2xl text-gray-800">
           <a
             href="https://www.facebook.com/vegadefranciacamping/"
             target="_blank"
             rel="noopener noreferrer"
+            className="hover:text-blue-500 transition"
           >
-            <FaFacebookF className="hover:text-blue-500 transition" />
+            <FaFacebookF />
           </a>
           <a
             href="https://www.instagram.com/campingvegadefrancia/"
             target="_blank"
             rel="noopener noreferrer"
+            className="hover:text-pink-500 transition"
           >
-            <FaInstagram className="hover:text-pink-500 transition" />
+            <FaInstagram />
           </a>
           <a
             href="https://www.tiktok.com/@campingvegadefrancia"
             target="_blank"
             rel="noopener noreferrer"
+            className="hover:text-red-500 transition"
           >
-            <FaTiktok className="hover:text-red-500 transition" />
+            <FaTiktok />
           </a>
         </div>
 
         {/* Redes sociales centradas en móvil cuando menú cerrado */}
         {!menuOpen && (
-          <div className="md:hidden absolute left-1/2 transform -translate-x-1/2 text-2xl flex gap-6">
+          <div className="md:hidden absolute left-1/2 transform -translate-x-1/2 text-2xl flex gap-6 text-gray-800">
             <a
               href="https://www.facebook.com/vegadefranciacamping/"
               target="_blank"
               rel="noopener noreferrer"
+              className="hover:text-blue-500 transition"
             >
-              <FaFacebookF className="hover:text-blue-500 transition" />
+              <FaFacebookF />
             </a>
             <a
               href="https://www.instagram.com/campingvegadefrancia/"
               target="_blank"
               rel="noopener noreferrer"
+              className="hover:text-pink-500 transition"
             >
-              <FaInstagram className="hover:text-pink-500 transition" />
+              <FaInstagram />
             </a>
             <a
               href="https://www.tiktok.com/@campingvegadefrancia"
               target="_blank"
               rel="noopener noreferrer"
+              className="hover:text-red-500 transition"
             >
-              <FaTiktok className="hover:text-red-500 transition" />
+              <FaTiktok />
             </a>
           </div>
         )}
 
         {/* Botón hamburguesa - solo visible en móvil */}
         <button
-          className="text-[var(--titleBody)] text-5xl md:hidden"
+          className="text-gray-900 text-5xl md:hidden"
           onClick={() => setMenuOpen(true)}
         >
           <HiMenu />
@@ -133,13 +142,13 @@ const Navbar = () => {
 
       {/* MENÚ LATERAL */}
       <div
-        className={`fixed top-0 left-0 h-full w-64 bg-[var(--navbar)] z-50 transform transition-transform duration-300 ${
+        className={`fixed top-0 left-0 h-full w-64 bg-gray-100 z-50 transform transition-transform duration-300 ${
           menuOpen ? "translate-x-0" : "-translate-x-full"
         } md:hidden`}
       >
-        <div className="flex justify-between items-center p-4 border-b border-white/20">
+        <div className="flex justify-between items-center p-4 border-b border-gray-300">
           <Image src="/logoSVG.svg" alt="logo" width={50} height={50} />
-          <button onClick={closeMenu} className="text-black text-3xl">
+          <button onClick={closeMenu} className="text-gray-900 text-3xl">
             <HiX />
           </button>
         </div>
@@ -151,15 +160,15 @@ const Navbar = () => {
               onClick={closeMenu}
               className={`${
                 pathname === link.href
-                  ? "text-green-400 font-semibold"
-                  : "text-black"
-              } hover:text-green-300 transition`}
+                  ? "text-green-600 font-semibold"
+                  : "text-gray-900"
+              } hover:text-green-400 transition`}
             >
               {link.label}
             </Link>
           ))}
 
-          <div className="flex gap-4 mt-6 text-2xl">
+          <div className="flex gap-4 mt-6 text-2xl text-gray-800">
             <a
               href="https://www.facebook.com/vegadefranciacamping/"
               target="_blank"

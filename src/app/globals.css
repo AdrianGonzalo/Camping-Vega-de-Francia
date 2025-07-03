@@ -23,3 +23,40 @@ body {
 
   --navbar: #f0f6f0;
 }
+
+.font-montserrat {
+  --font-montserrat: "Montserrat", sans-serif;
+  font-family: var(--font-montserrat);
+}
+
+.font-roboto {
+  --font-roboto: "Roboto", sans-serif;
+  font-family: var(--font-roboto);
+}
+
+/* Aplica Roboto para todo el body */
+.font-body {
+  font-family: var(--font-roboto);
+}
+
+.font-limelight {
+  font-family: var(--font-limelight);
+}
+
+.font-lora {
+  font-family: var(--font-lora);
+}
+
+.font-playfair {
+  font-family: var(--font-playfair), serif;
+}
+
+/* Usa Montserrat solo para los títulos */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-montserrat);
+}

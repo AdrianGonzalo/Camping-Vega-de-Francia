@@ -4,34 +4,42 @@ import Link from "next/link";
 import Card from "@/app/components/card";
 import GoogleReviews from "@/app/components/GoogleReviews";
 
-import Carousel from "@/app/components/carousel";
-
 const HomePage = () => {
   return (
     <div>
-      {/* <div className="relative w-full h-screen">
+      <div className="relative h-[340px] w-full">
+        {/* Imagen de fondo */}
         <Image
           src="/bridge.jpg"
           alt="Imagen del puente"
           fill
-          className="object-cover object-top"
+          className="object-cover"
           priority
         />
-        <h1 className="absolute top-1/7 sm:top-1/5 left-1/2 transform -translate-x-1/2 text-center px-4">
-          
-          <div className="text-xl sm:text-2xl mb-4 sm:mb-7">
-            Bienvenido al Camping
-          </div>
-          <div className="text-4xl sm:text-7xl font-bold">Vega de Francia</div>
-        </h1>
-      </div> */}
 
-      <Carousel />
+        {/* Overlay oscuro */}
+        <div className="absolute inset-0 bg-black/40" />
+
+        {/* Contenido centrado dentro del banner */}
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4">
+          <h1 className="text-3xl md:text-5xl font-limelight drop-shadow-lg mt-20">
+            SOMOS DIFERENTES
+          </h1>
+        </div>
+      </div>
 
       {/* Inicio */}
       <div>
+        <div
+          className="font-bold text-[2.625rem] text-center text-green-950 font-playfair mt-7"
+          style={{ transform: "scaleY(1.2)", transformOrigin: "center" }}
+        >
+          <p>Bienvenidos a</p>
+          <p>Vega de Francia</p>
+        </div>
+
         <div>
-          <p className="text-2xl sm:text-5xl text-[var(--titleBody)] flex justify-center mb-4 mt-8 px-4 text-center font-bold">
+          <p className="text-2xl sm:text-5xl text-[var(--titleBody)] flex justify-center mb-4 mt-10 px-4 text-center font-bold">
             ¡Estamos abierto todo el año!
           </p>
           <div className="flex flex-col justify-center mb-10 mt-8 text-sm sm:text-base px-4 max-w-xl mx-auto text-center">
@@ -39,7 +47,7 @@ const HomePage = () => {
             <p>Disfruta de todas las posibilidades que te ofrecemos</p>
           </div>
           {/* Tarjetas de actividades */}
-          <div className="flex flex-col sm:flex-row gap-6 rounded-2xl max-w-[1200px] w-full mx-auto px-4">
+          <div className="flex flex-col sm:flex-row gap-6 max-w-[1200px] w-full mx-auto px-4">
             <Card
               img="/cards/rio.jpg"
               title="Piscina Natural"
