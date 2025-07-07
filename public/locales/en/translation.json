@@ -1,0 +1,40 @@
+{
+  "bannerTitle": "WE ARE DIFFERENT",
+  "bienvenida": "Welcome to",
+  "nombreCamping": "Vega de Francia",
+  "abiertoTodoElAño": "We are open all year round!",
+  "intro1": "Looking for a place where green surrounds you?",
+  "intro2": "Enjoy all the possibilities we offer",
+  "card1": {
+    "title": "Natural Pool",
+    "description": "Dive into the river’s pleasure, whether swimming or fishing."
+  },
+  "card2": {
+    "title": "Barbecue",
+    "description": "Area with grills prepared to enjoy with family."
+  },
+  "card3": {
+    "title": "Playground",
+    "description": "A space designed for children to have maximum fun."
+  },
+  "verMas": "See more",
+  "loMejorServicios": "The best of our services",
+  "servicio1": "Our plots are large, shaded, and easily accessible.",
+  "servicio2": "Pets are welcome.",
+  "servicio3": "Accessible for people with disabilities.",
+  "temporadas": "High season: 16/04/2025 – 01/09/2025 - Low season: Rest of the year",
+  "bungalows": {
+    "title": "Bungalows and Tipis",
+    "description": "Our bungalows offer a comfortable and fully equipped space for you to enjoy a pleasant stay surrounded by nature. Perfect for families or groups looking for practical accommodation with all comforts to relax after a day outdoors."
+  },
+  "parcelas": {
+    "title": "Plots",
+    "description": "Our plots offer a comfortable and fully equipped space for you to enjoy a pleasant stay surrounded by nature. Perfect for families or groups looking for practical accommodation with all comforts to relax after a day outdoors."
+  },
+  "masInfo": "More information",
+  "formaParte": "Become part of our family",
+  "fijos": "If you are interested in joining our camping as a permanent resident, we will be happy to welcome you. Contact us for all the details.",
+  "contactoTexto": "Get in touch with us",
+  "telefono": "923 16 11 04 - 653 06 81 00",
+  "opiniones": "Reviews about us"
+}

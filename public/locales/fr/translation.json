@@ -1,0 +1,40 @@
+{
+  "bannerTitle": "NOUS SOMMES DIFFÉRENTS",
+  "bienvenida": "Bienvenue à",
+  "nombreCamping": "Vega de Francia",
+  "abiertoTodoElAño": "Nous sommes ouverts toute l'année !",
+  "intro1": "Vous cherchez un endroit où le vert vous entoure ?",
+  "intro2": "Profitez de toutes les possibilités que nous offrons",
+  "card1": {
+    "title": "Piscine Naturelle",
+    "description": "Plongez dans le plaisir de la rivière, que ce soit en nageant ou en pêchant."
+  },
+  "card2": {
+    "title": "Barbecue",
+    "description": "Zone équipée de grills pour profiter en famille."
+  },
+  "card3": {
+    "title": "Aire de Jeux",
+    "description": "Un espace pensé pour que les enfants s'amusent au maximum."
+  },
+  "verMas": "Voir plus",
+  "loMejorServicios": "Le meilleur de nos services",
+  "servicio1": "Nos emplacements sont grands, ombragés et facilement accessibles.",
+  "servicio2": "Les animaux de compagnie sont les bienvenus.",
+  "servicio3": "Accès adapté aux personnes à mobilité réduite.",
+  "temporadas": "Haute saison : 16/04/2025 – 01/09/2025 - Basse saison : Le reste de l'année",
+  "bungalows": {
+    "title": "Bungalows et Tipis",
+    "description": "Nos bungalows offrent un espace confortable et entièrement équipé pour que vous profitiez d'un séjour agréable en pleine nature. Parfaits pour les familles ou groupes cherchant un hébergement pratique avec tout le confort pour se détendre après une journée en plein air."
+  },
+  "parcelas": {
+    "title": "Emplacements",
+    "description": "Nos emplacements offrent un espace confortable et entièrement équipé pour que vous profitiez d'un séjour agréable en pleine nature. Parfaits pour les familles ou groupes cherchant un hébergement pratique avec tout le confort pour se détendre après une journée en plein air."
+  },
+  "masInfo": "Plus d'informations",
+  "formaParte": "Faites partie de notre famille",
+  "fijos": "Si vous souhaitez rejoindre notre camping en tant que résident permanent, nous serons ravis de vous accueillir. Contactez-nous pour tous les détails.",
+  "contactoTexto": "Contactez-nous",
+  "telefono": "923 16 11 04 - 653 06 81 00",
+  "opiniones": "Avis sur nous"
+}

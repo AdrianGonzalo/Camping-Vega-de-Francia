@@ -32,12 +32,12 @@ const CardService = ({ img, title, description, deepDescription }) => {
         )}
         <div className="flex flex-col gap-2">
           <button
-            className="w-full bg-[var(--buttonInformation)] text-white py-2 rounded"
+            className="w-full bg-gray-400 hover:bg-gray-600 text-white py-2 rounded"
             onClick={() => setShowMore(!showMore)}
           >
             {showMore ? "Ocultar detalles" : "Ver más detalles"}
           </button>
-          <button className="w-full bg-[var(--buttonReserve)] text-white py-2">
+          <button className="w-full  bg-green-600 hover:bg-green-700 text-white py-2">
             Reservar ahora
           </button>
         </div>

@@ -40,7 +40,7 @@ const HomePage = () => {
 
         <div>
           <p className="text-2xl sm:text-5xl text-[var(--titleBody)] flex justify-center mb-4 mt-10 px-4 text-center font-bold">
-            ¡Estamos abierto todo el año!
+            ¡Estamos abiertos todo el año!
           </p>
           <div className="flex flex-col justify-center mb-10 mt-8 text-sm sm:text-base px-4 max-w-xl mx-auto text-center">
             <p>¿Buscas un lugar donde el verde lo inunde todo?</p>

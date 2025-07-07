@@ -1,0 +1,40 @@
+{
+  "bannerTitle": "SOMOS DIFERENTES",
+  "bienvenida": "Bienvenidos a",
+  "nombreCamping": "Vega de Francia",
+  "abiertoTodoElAño": "¡Estamos abierto todo el año!",
+  "intro1": "¿Buscas un lugar donde el verde lo inunde todo?",
+  "intro2": "Disfruta de todas las posibilidades que te ofrecemos",
+  "card1": {
+    "title": "Piscina Natural",
+    "description": "Sumérgete en el placer del río, ya sea nadando en sus aguas o lanzando la caña."
+  },
+  "card2": {
+    "title": "Barbacoa",
+    "description": "Zona preparada con parrillas para disfrutar con familiares ."
+  },
+  "card3": {
+    "title": "Parque Infantil",
+    "description": "Un espacio pensado para que los más pequeños se diviertan al máximo."
+  },
+  "verMas": "Ver más",
+  "loMejorServicios": "Lo mejor de nuestros servicios",
+  "servicio1": "Nuestras parcelas son grandes, con sombras y un buen acceso.",
+  "servicio2": "Las mascotas son bienvenidas.",
+  "servicio3": "Acceso adaptado a minusválidos.",
+  "temporadas": "Temporada alta: 16/04/2025 – 01/09/2025 - Temporada baja: Resto del año",
+  "bungalows": {
+    "title": "Bungalows y Tipis",
+    "description": "Nuestros bungalows ofrecen un espacio cómodo y totalmente equipado para que disfrutes de una estancia agradable en plena naturaleza. Perfectos para familias o grupos que buscan un alojamiento práctico, con todas las comodidades para relajarse después de un día al aire libre."
+  },
+  "parcelas": {
+    "title": "Parcelas",
+    "description": "Nuestras parcelas ofrecen un espacio cómodo y totalmente equipado para que disfrutes de una estancia agradable en plena naturaleza. Perfectos para familias o grupos que buscan un alojamiento práctico, con todas las comodidades para relajarse después de un día al aire libre."
+  },
+  "masInfo": "Más información",
+  "formaParte": "Forma parte de nuestra familia",
+  "fijos": "Si estás interesado en unirte a nuestro camping como residente fijo, estaremos encantados de darte la bienvenida. Ponte en contacto con nosotros para conocer todos los detalles.",
+  "contactoTexto": "Ponte en contacto con nosotros",
+  "telefono": "923 16 11 04 - 653 06 81 00",
+  "opiniones": "Opiniones sobre nosotros"
+}

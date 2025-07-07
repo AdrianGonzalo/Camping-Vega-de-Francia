@@ -39,19 +39,21 @@ const Navbar = () => {
           ${
             scrolled
               ? "bg-gray-100 opacity-100 h-16 shadow-md"
-              : "bg-white opacity-80 h-24"
+              : "bg-white opacity-100 h-24"
           }
         `}
       >
         {/* Logo */}
         <div className="flex items-center gap-4">
-          <Image
-            src="/logoSVG.svg"
-            alt="logo del camping"
-            width={scrolled ? 50 : 70}
-            height={scrolled ? 50 : 70}
-            className="transition-all duration-300"
-          />
+          <Link href="/homePage">
+            <Image
+              src="/logoSVG.svg"
+              alt="logo del camping"
+              width={scrolled ? 50 : 70}
+              height={scrolled ? 50 : 70}
+              className="transition-all duration-300 cursor-pointer"
+            />
+          </Link>
         </div>
 
         {/* Links - solo visible en escritorio */}

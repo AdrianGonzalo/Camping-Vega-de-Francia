@@ -1,7 +1,15 @@
-import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import {
+  FaMapMarkerAlt,
+  FaPhone,
+  FaMobileAlt,
+  FaEnvelope,
+} from "react-icons/fa";
+
 import Link from "next/link";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="bg-[var(--footer)] w-full border-t-4 border-[var(--footerBorder)] text-white text-sm">
       <div className="flex flex-col justify-between min-h-[250px] px-4 md:px-12 py-6 md:py-10 max-w-[1300px] mx-auto">
@@ -12,20 +20,23 @@ const Footer = () => {
               Sotoserrano, Salamanca
             </p>
             <p className="flex items-center gap-3 md:gap-4 text-xs md:text-sm">
-              <FaEnvelope /> josega1669@gmail.com
+              <FaEnvelope />
+              <a href="mailto:josega1669@gmail.com" className="hover:underline">
+                josega1669@gmail.com
+              </a>
+            </p>
+
+            <p className="flex items-center gap-3 md:gap-4 text-xs md:text-sm">
+              <FaPhone /> Fijo: 923 16 11 04
             </p>
             <p className="flex items-center gap-3 md:gap-4 text-xs md:text-sm">
-              <FaPhoneAlt /> Fijo: 923 16 11 04
-            </p>
-            <p className="flex items-center gap-3 md:gap-4 text-xs md:text-sm">
-              <FaPhoneAlt /> Movil: 653 06 81 00
+              <FaMobileAlt /> Móvil: 653 06 81 00
             </p>
           </div>
         </div>
 
-        {/* Parte inferior fija: políticas */}
         <div className="text-center bg-[var(--footerPolicies)] py-3 text-xs md:text-sm mt-6 md:mt-10">
-          <p>© 2025 Vega de Francia, Todos los derechos reservados.</p>
+          <p>© {currentYear} Vega de Francia, Todos los derechos reservados.</p>
           <ul className="flex flex-wrap justify-center gap-3 md:gap-4 mt-3 md:mt-4">
             <li>
               <Link href="/footerPrivacity" className="hover:underline">

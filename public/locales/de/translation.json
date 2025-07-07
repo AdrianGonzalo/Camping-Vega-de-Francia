@@ -1,0 +1,40 @@
+{
+  "bannerTitle": "WIR SIND ANDERS",
+  "bienvenida": "Willkommen bei",
+  "nombreCamping": "Vega de Francia",
+  "abiertoTodoElAño": "Wir haben das ganze Jahr geöffnet!",
+  "intro1": "Suchen Sie einen Ort, an dem Grün alles umgibt?",
+  "intro2": "Genießen Sie alle Möglichkeiten, die wir anbieten",
+  "card1": {
+    "title": "Naturpool",
+    "description": "Tauchen Sie ein in das Vergnügen des Flusses, ob beim Schwimmen oder Angeln."
+  },
+  "card2": {
+    "title": "Grillplatz",
+    "description": "Bereich mit Grillstellen, um mit der Familie zu genießen."
+  },
+  "card3": {
+    "title": "Kinderspielplatz",
+    "description": "Ein Bereich, der für maximale Freude der Kleinen gestaltet wurde."
+  },
+  "verMas": "Mehr sehen",
+  "loMejorServicios": "Das Beste unserer Dienstleistungen",
+  "servicio1": "Unsere Parzellen sind groß, schattig und gut zugänglich.",
+  "servicio2": "Haustiere sind willkommen.",
+  "servicio3": "Barrierefreier Zugang.",
+  "temporadas": "Hauptsaison: 16/04/2025 – 01/09/2025 - Nebensaison: Rest des Jahres",
+  "bungalows": {
+    "title": "Bungalows und Tipis",
+    "description": "Unsere Bungalows bieten einen komfortablen und voll ausgestatteten Raum für einen angenehmen Aufenthalt inmitten der Natur. Perfekt für Familien oder Gruppen, die eine praktische Unterkunft mit allem Komfort suchen, um sich nach einem Tag im Freien zu entspannen."
+  },
+  "parcelas": {
+    "title": "Parzellen",
+    "description": "Unsere Parzellen bieten einen komfortablen und voll ausgestatteten Raum für einen angenehmen Aufenthalt inmitten der Natur. Perfekt für Familien oder Gruppen, die eine praktische Unterkunft mit allem Komfort suchen, um sich nach einem Tag im Freien zu entspannen."
+  },
+  "masInfo": "Mehr Informationen",
+  "formaParte": "Werde Teil unserer Familie",
+  "fijos": "Wenn Sie daran interessiert sind, als Dauergast unserem Campingplatz beizutreten, heißen wir Sie herzlich willkommen. Kontaktieren Sie uns für alle Details.",
+  "contactoTexto": "Kontaktieren Sie uns",
+  "telefono": "923 16 11 04 - 653 06 81 00",
+  "opiniones": "Bewertungen über uns"
+}
