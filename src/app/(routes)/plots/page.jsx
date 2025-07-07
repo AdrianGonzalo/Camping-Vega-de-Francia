@@ -8,7 +8,7 @@ const Plots = () => {
       <div className="max-w-[1300px] mx-auto flex flex-col md:flex-row justify-center gap-6 px-4 pb-10">
         <CardPlots
           img="/headers/plots.JPG"
-          title="Parcela (electricidad opcional)"
+          title="Parcela para tienda"
           description={
             <>
               <h3 className="font-semibold mb-2">Horario</h3>
@@ -24,13 +24,30 @@ const Plots = () => {
                 </li>
               </ul>
 
-              <h3 className="font-semibold mb-2">Permitido en este lugar:</h3>
-              <ul className="mb-4 text-sm list-disc list-inside">
-                <li>Caravana</li>
-                <li>Autocaravana</li>
+              <p className="font-semibold text-lg">EUR 17</p>
+            </>
+          }
+        />
+
+        <CardPlots
+          img="/headers/plots.JPG"
+          title="Parcela para vehículos tipo campervan (electricidad opcional)"
+          description={
+            <>
+              <h3 className="font-semibold mb-2">Horario</h3>
+              <ul className="mb-4 text-sm">
+                <li>
+                  <strong>Apertura:</strong> 01/12 - 31/12
+                </li>
+                <li>
+                  <strong>Check-in:</strong> 09:00 - 23:00
+                </li>
+                <li>
+                  <strong>Salida:</strong> 12:00
+                </li>
               </ul>
 
-              <p className="font-semibold text-lg">EUR 28</p>
+              <p className="font-semibold text-lg">EUR 23</p>
             </>
           }
         />
@@ -51,41 +68,6 @@ const Plots = () => {
                 <li>
                   <strong>Salida:</strong> 12:00
                 </li>
-              </ul>
-
-              <h3 className="font-semibold mb-2">Permitido en este lugar:</h3>
-              <ul className="mb-4 text-sm list-disc list-inside">
-                <li>Caravana</li>
-                <li>Autocaravana</li>
-              </ul>
-
-              <p className="font-semibold text-lg">EUR 28</p>
-            </>
-          }
-        />
-
-        <CardPlots
-          img="/headers/plots.JPG"
-          title="Parcela (electricidad opcional)"
-          description={
-            <>
-              <h3 className="font-semibold mb-2">Horario</h3>
-              <ul className="mb-4 text-sm">
-                <li>
-                  <strong>Apertura:</strong> 01/12 - 31/12
-                </li>
-                <li>
-                  <strong>Check-in:</strong> 09:00 - 23:00
-                </li>
-                <li>
-                  <strong>Salida:</strong> 12:00
-                </li>
-              </ul>
-
-              <h3 className="font-semibold mb-2">Permitido en este lugar:</h3>
-              <ul className="mb-4 text-sm list-disc list-inside">
-                <li>Caravana</li>
-                <li>Autocaravana</li>
               </ul>
 
               <p className="font-semibold text-lg">EUR 28</p>

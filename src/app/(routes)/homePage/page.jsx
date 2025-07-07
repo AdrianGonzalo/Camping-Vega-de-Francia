@@ -6,7 +6,7 @@ import GoogleReviews from "@/app/components/GoogleReviews";
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="pt-24">
       <div className="relative h-[340px] w-full">
         {/* Imagen de fondo */}
         <Image
@@ -22,7 +22,7 @@ const HomePage = () => {
 
         {/* Contenido centrado dentro del banner */}
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4">
-          <h1 className="text-3xl md:text-5xl font-limelight drop-shadow-lg mt-20">
+          <h1 className="text-3xl md:text-5xl font-limelight drop-shadow-lg mt-5">
             SOMOS DIFERENTES
           </h1>
         </div>
@@ -30,11 +30,8 @@ const HomePage = () => {
 
       {/* Inicio */}
       <div>
-        <div
-          className="font-bold text-[2.625rem] text-center text-green-950 font-playfair mt-7"
-          style={{ transform: "scaleY(1.2)", transformOrigin: "center" }}
-        >
-          <p>Bienvenidos a</p>
+        <div className="font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-center text-green-950 font-playfair mt-7 leading-tight">
+          <p>Bienvenidos al Camping</p>
           <p>Vega de Francia</p>
         </div>
 
