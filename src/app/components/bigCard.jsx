@@ -45,7 +45,7 @@ const BigCard = ({
             <h2 className="text-4xl text-[var(--titleBody)] font-bold mb-6">
               {title}
             </h2>
-            <p className="mb-10">{description}</p>
+            <div className="mb-10">{description}</div>
 
             {showMoreButton && (
               <button
