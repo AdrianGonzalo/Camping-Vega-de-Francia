@@ -22,7 +22,7 @@ const Activities = () => {
               </p>
             </>
           }
-          imageSrc="/activities/rio.jpg"
+          imageSrc="/activities/piscinaNatural.JPG"
           imageAlt="piscina natural"
           imageLeft={false}
           showMoreButton={false}
@@ -31,7 +31,7 @@ const Activities = () => {
         <BigCard
           title="Barbacoa"
           description="Prepara tu barbacoa y disfruta de una deliciosa comida al aire libre, rodeado de la belleza natural que ofrece el entorno. Es un plan perfecto para relajarte, compartir con amigos y familiares, y saborear cada momento con tranquilidad, mientras te conectas con la naturaleza."
-          imageSrc="/activities/barbacoa.jpg"
+          imageSrc="/activities/barbacoa.JPG"
           imageAlt="barbacoa"
           imageLeft={true}
           showMoreButton={false}
@@ -40,7 +40,7 @@ const Activities = () => {
         <BigCard
           title="Senderismo"
           description="Explora los senderos que rodean Vega de Francia y descubre paisajes únicos entre montañas, ríos y bosques."
-          imageSrc="/activities/senderismo.jpg"
+          imageSrc="/activities/senderismo.JPG"
           imageAlt="senderismo"
           imageLeft={false}
           showRoutes={true}
@@ -71,7 +71,7 @@ const Activities = () => {
         <BigCard
           title="Pesca"
           description="Disfruta de una jornada de pesca en los tranquilos ríos que rodean Vega de Francia. Este entorno natural es hogar de especies como la trucha común, la carpa, el barbo y el pez colmillejo, un pez exclusivo de la zona. Ya seas principiante o experto, la pesca aquí es una experiencia relajante y perfecta para conectar con la naturaleza."
-          imageSrc="/activities/pesca.jpg"
+          imageSrc="/activities/pesca.JPG"
           imageAlt="pesca"
           imageLeft={true}
           showMoreButton={false}
@@ -130,7 +130,7 @@ const Activities = () => {
         <BigCard
           title="Parque Infantil"
           description="Nuestro parque infantil es un espacio seguro y rodeado de naturaleza donde los niños pueden jugar y divertirse al aire libre. Un lugar ideal para que compartan momentos especiales con otros niños mientras tú disfrutas tranquilo."
-          imageSrc="/activities/parqueInfantil.jpg"
+          imageSrc="/activities/parque.JPG"
           imageAlt="parque infantil"
           imageLeft={false}
           showMoreButton={false}

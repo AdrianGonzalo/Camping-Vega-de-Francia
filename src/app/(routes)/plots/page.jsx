@@ -7,7 +7,7 @@ const Plots = () => {
       <Header img="/headers/plots.JPG" title="PARCELAS" />
       <div className="max-w-[1300px] mx-auto flex flex-col md:flex-row justify-center gap-6 px-4 pb-10">
         <CardPlots
-          img="/headers/plots.JPG"
+          img="/plots/parcelaTienda.JPG"
           title="Parcela para tienda"
           description={
             <>
@@ -30,7 +30,7 @@ const Plots = () => {
         />
 
         <CardPlots
-          img="/headers/plots.JPG"
+          img="/plots/parcelaCamper.JPG"
           title="Parcela para vehículos tipo campervan (electricidad opcional)"
           description={
             <>
@@ -53,7 +53,7 @@ const Plots = () => {
         />
 
         <CardPlots
-          img="/headers/plots.JPG"
+          img="/plots/parcelaElectricidad.JPG"
           title="Parcela (electricidad opcional)"
           description={
             <>

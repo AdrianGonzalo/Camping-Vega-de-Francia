@@ -46,19 +46,19 @@ const HomePage = () => {
           {/* Tarjetas de actividades */}
           <div className="flex flex-col sm:flex-row gap-6 max-w-[1200px] w-full mx-auto px-4">
             <Card
-              img="/cards/rio.jpg"
+              img="/cards/piscinaNatural.JPG"
               title="Piscina Natural"
               description="Sumérgete en el placer del río, ya sea nadando en sus aguas o lanzando la caña."
             />
 
             <Card
-              img="/cards/barbacoa.jpg"
+              img="/cards/barbacoa.JPG"
               title="Barbacoa"
               description="Zona preparada con parrillas para disfrutar con familiares ."
             />
 
             <Card
-              img="/cards/parque.jpg"
+              img="/cards/parque.JPG"
               title="Parque Infantil"
               description="Un espacio pensado para que los más pequeños se diviertan al máximo."
             />
