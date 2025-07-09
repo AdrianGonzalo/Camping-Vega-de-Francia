@@ -4,7 +4,7 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 const Contact = () => {
   return (
     <div className="flex flex-col">
-      <Header title="CONTACTO" img="/headers/contact.jpg" />
+      <Header title="CONTACTO" img="/headers/recep.JPG" />
 
       <section className="flex flex-col items-center justify-center px-4 py-10 text-black">
         <div className="w-full max-w-3xl bg-white shadow-lg p-6 sm:p-10 space-y-6">

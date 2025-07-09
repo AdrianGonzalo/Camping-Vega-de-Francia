@@ -23,6 +23,18 @@ const images = [
   "/gallery/ga16.JPG",
   "/gallery/ga17.JPG",
   "/gallery/ga18.JPG",
+  "/gallery/ga19.JPG",
+  "/gallery/ga20.JPG",
+  "/gallery/ga21.JPG",
+  "/gallery/ga22.JPG",
+  "/gallery/ga23.JPG",
+  "/gallery/ga24.JPG",
+  "/gallery/ga25.JPG",
+  "/gallery/ga26.JPG",
+  "/gallery/ga27.JPG",
+  "/gallery/ga28.JPG",
+  "/gallery/ga29.JPG",
+  "/gallery/ga30.JPG",
 ];
 
 const Gallery = () => {
