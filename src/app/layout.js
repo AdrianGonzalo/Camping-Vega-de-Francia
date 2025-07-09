@@ -43,6 +43,9 @@ const lora = Lora({
 export const metadata = {
   title: "Camping Vega de Francia",
   description: "Web camping",
+  icons: {
+    icon: "/favicon-v2.ico",
+  },
 };
 
 export default function RootLayout({ children }) {
